@@ -12,19 +12,16 @@ export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
 
   const handleDownload = async (url: string, filename: string) => {
     try {
-      const response = await fetch(url);
-      const blob = await response.blob();
-      const downloadUrl = window.URL.createObjectURL(blob);
+      // For local files, create a direct download link
       const link = document.createElement('a');
-      link.href = downloadUrl;
+      link.href = url;
       link.download = filename;
+      link.target = '_blank';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      window.URL.revokeObjectURL(downloadUrl);
     } catch (error) {
       console.error('Download failed:', error);
-      // Fallback to direct link
       window.open(url, '_blank');
     }
   };
@@ -67,17 +64,17 @@ export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
           <div className="flex space-x-2">
             <button
-              onClick={() => handleDownload(logo.pngUrl, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.png`)}
-              className="bg-white text-gray-900 px-3 py-2 rounded-lg font-medium text-sm hover:bg-gray-100 transition-colors duration-200 flex items-center space-x-1"
+              onClick={() => handleDownload(logo.downloadUrls.png500, `${logo.name.toLowerCase().replace(/\s+/g, '-')}-500px.png`)}
+              className="bg-white text-gray-900 px-2 py-1 rounded-md font-medium text-xs hover:bg-gray-100 transition-colors duration-200 flex items-center space-x-1"
             >
-              <Download className="w-4 h-4" />
+              <Download className="w-3 h-3" />
               <span>PNG</span>
             </button>
             <button
-              onClick={() => handleDownload(logo.svgUrl, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.svg`)}
-              className="bg-green-600 text-white px-3 py-2 rounded-lg font-medium text-sm hover:bg-green-700 transition-colors duration-200 flex items-center space-x-1"
+              onClick={() => handleDownload(logo.downloadUrls.svg, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.svg`)}
+              className="bg-green-600 text-white px-2 py-1 rounded-md font-medium text-xs hover:bg-green-700 transition-colors duration-200 flex items-center space-x-1"
             >
-              <Download className="w-4 h-4" />
+              <Download className="w-3 h-3" />
               <span>SVG</span>
             </button>
           </div>
@@ -110,15 +107,36 @@ export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
         </div>
         
         <div className="mt-3 pt-3 border-t border-gray-100 flex space-x-2">
+          <div className="flex-1">
+            <div className="relative group/dropdown">
+              <button className="w-full bg-gray-100 text-gray-700 py-2 px-3 rounded-lg text-xs font-medium hover:bg-gray-200 transition-colors duration-200 flex items-center justify-center space-x-1">
+                <Download className="w-3 h-3" />
+                <span>PNG</span>
+              </button>
+              <div className="absolute bottom-full left-0 right-0 mb-1 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible transition-all duration-200 z-10">
+                <button
+                  onClick={() => handleDownload(logo.downloadUrls.png250, `${logo.name.toLowerCase().replace(/\s+/g, '-')}-250px.png`)}
+                  className="w-full px-3 py-2 text-xs text-gray-700 hover:bg-gray-50 rounded-t-lg"
+                >
+                  250px
+                </button>
+                <button
+                  onClick={() => handleDownload(logo.downloadUrls.png500, `${logo.name.toLowerCase().replace(/\s+/g, '-')}-500px.png`)}
+                  className="w-full px-3 py-2 text-xs text-gray-700 hover:bg-gray-50"
+                >
+                  500px
+                </button>
+                <button
+                  onClick={() => handleDownload(logo.downloadUrls.png1000, `${logo.name.toLowerCase().replace(/\s+/g, '-')}-1000px.png`)}
+                  className="w-full px-3 py-2 text-xs text-gray-700 hover:bg-gray-50 rounded-b-lg"
+                >
+                  1000px
+                </button>
+              </div>
+            </div>
+          </div>
           <button
-            onClick={() => handleDownload(logo.pngUrl, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.png`)}
-            className="flex-1 bg-gray-100 text-gray-700 py-2 px-3 rounded-lg text-xs font-medium hover:bg-gray-200 transition-colors duration-200 flex items-center justify-center space-x-1"
-          >
-            <Download className="w-3 h-3" />
-            <span>PNG</span>
-          </button>
-          <button
-            onClick={() => handleDownload(logo.svgUrl, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.svg`)}
+            onClick={() => handleDownload(logo.downloadUrls.svg, `${logo.name.toLowerCase().replace(/\s+/g, '-')}.svg`)}
             className="flex-1 bg-green-600 text-white py-2 px-3 rounded-lg text-xs font-medium hover:bg-green-700 transition-colors duration-200 flex items-center justify-center space-x-1"
           >
             <Download className="w-3 h-3" />

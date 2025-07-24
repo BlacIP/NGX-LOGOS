@@ -5,6 +5,12 @@ export interface Logo {
   description?: string;
   pngUrl: string;
   svgUrl: string;
+  downloadUrls: {
+    png250: string;
+    png500: string;
+    png1000: string;
+    svg: string;
+  };
   tags: string[];
   featured?: boolean;
 }

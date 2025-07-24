@@ -35,11 +35,12 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Nigerian Company Logos Collection
+                NGX Listed Companies Logo Collection
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                A comprehensive open-source collection of Nigerian company logos. Download high-quality 
-                PNG and SVG files for your projects, research, or design work - completely free.
+                A comprehensive open-source collection of Nigerian Exchange Group (NGX) listed company logos. 
+                Download high-quality PNG (250px, 500px, 1000px) and SVG files for your projects, research, 
+                or design work - completely free.
               </p>
             </div>
           </div>

@@ -1,83 +1,441 @@
 import { Logo, LogoCategory } from '../types';
 
-// This is sample data - replace with your actual GitHub URLs
+// Nigerian Exchange Group (NGX) Listed Companies Logos
 export const logos: Logo[] = [
   {
-    id: 'firstbank',
-    name: 'First Bank of Nigeria',
-    category: 'Banking',
-    description: 'Leading commercial bank in Nigeria',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/firstbank.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/firstbank.svg',
-    tags: ['bank', 'financial', 'blue', 'elephant'],
+    id: 'abbeybds',
+    name: 'Abbey Mortgage Bank PLC',
+    category: 'Banking & Finance',
+    description: 'Mortgage banking and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ABBEYBDS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ABBEYBDS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ABBEYBDS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ABBEYBDS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg'
+    },
+    tags: ['banking', 'mortgage', 'finance', 'abbey'],
     featured: true
   },
   {
-    id: 'gtbank',
-    name: 'Guaranty Trust Bank',
-    category: 'Banking',
-    description: 'Premier financial institution',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/gtbank.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/gtbank.svg',
-    tags: ['bank', 'financial', 'orange', 'modern'],
+    id: 'academy',
+    name: 'Academy Press PLC',
+    category: 'Media & Publishing',
+    description: 'Publishing and printing services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ACADEMY.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ACADEMY.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ACADEMY.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ACADEMY.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ACADEMY.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ACADEMY.svg'
+    },
+    tags: ['publishing', 'media', 'printing', 'academy'],
+    featured: false
+  },
+  {
+    id: 'accesscorp',
+    name: 'Access Holdings PLC',
+    category: 'Banking & Finance',
+    description: 'Commercial banking and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ACCESSCORP.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ACCESSCORP.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ACCESSCORP.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ACCESSCORP.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg'
+    },
+    tags: ['banking', 'finance', 'access', 'commercial'],
     featured: true
   },
   {
-    id: 'mtn',
-    name: 'MTN Nigeria',
+    id: 'afriprud',
+    name: 'Africa Prudential PLC',
+    category: 'Financial Services',
+    description: 'Registrar and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AFRIPRUD.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFRIPRUD.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFRIPRUD.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFRIPRUD.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg'
+    },
+    tags: ['financial', 'registrar', 'africa', 'prudential'],
+    featured: false
+  },
+  {
+    id: 'afrinsure',
+    name: 'African Alliance Insurance PLC',
+    category: 'Insurance',
+    description: 'Life and general insurance services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AFRINSURE.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFRINSURE.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFRINSURE.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFRINSURE.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg'
+    },
+    tags: ['insurance', 'african', 'alliance', 'life'],
+    featured: false
+  },
+  {
+    id: 'afromedia',
+    name: 'Afromedia PLC',
+    category: 'Media & Publishing',
+    description: 'Media and entertainment services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AFROMEDIA.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFROMEDIA.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFROMEDIA.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFROMEDIA.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg'
+    },
+    tags: ['media', 'entertainment', 'afro', 'broadcasting'],
+    featured: false
+  },
+  {
+    id: 'aiico',
+    name: 'AIICO Insurance PLC',
+    category: 'Insurance',
+    description: 'Life and general insurance company',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AIICO.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AIICO.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AIICO.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AIICO.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AIICO.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AIICO.svg'
+    },
+    tags: ['insurance', 'aiico', 'life', 'general'],
+    featured: false
+  },
+  {
+    id: 'airtelafri',
+    name: 'Airtel Africa PLC',
     category: 'Telecommunications',
-    description: 'Leading telecommunications company',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/mtn.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/mtn.svg',
-    tags: ['telecom', 'yellow', 'mobile', 'network'],
+    description: 'Telecommunications and mobile services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AIRTELAFRI.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AIRTELAFRI.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AIRTELAFRI.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AIRTELAFRI.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg'
+    },
+    tags: ['telecommunications', 'mobile', 'airtel', 'africa'],
     featured: true
   },
   {
-    id: 'airtel',
-    name: 'Airtel Nigeria',
-    category: 'Telecommunications',
-    description: 'Major telecommunications provider',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/airtel.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/airtel.svg',
-    tags: ['telecom', 'red', 'mobile', 'network']
+    id: 'alex',
+    name: 'Aluminium Extrusion Industries PLC',
+    category: 'Industrial',
+    description: 'Aluminium manufacturing and extrusion',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ALEX.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ALEX.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ALEX.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ALEX.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ALEX.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ALEX.svg'
+    },
+    tags: ['industrial', 'aluminium', 'manufacturing', 'extrusion'],
+    featured: false
   },
   {
-    id: 'dangote',
-    name: 'Dangote Group',
+    id: 'aradel',
+    name: 'Aradel Holdings PLC',
+    category: 'Oil & Gas',
+    description: 'Oil and gas exploration and production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ARADEL.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ARADEL.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ARADEL.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ARADEL.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ARADEL.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ARADEL.svg'
+    },
+    tags: ['oil', 'gas', 'exploration', 'energy'],
+    featured: false
+  },
+  {
+    id: 'asosavings',
+    name: 'ASO Savings and Loans PLC',
+    category: 'Banking & Finance',
+    description: 'Savings and loans financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ASOSAVINGS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ASOSAVINGS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ASOSAVINGS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ASOSAVINGS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg'
+    },
+    tags: ['banking', 'savings', 'loans', 'aso'],
+    featured: false
+  },
+  {
+    id: 'abctrans',
+    name: 'Associated Bus Company PLC',
+    category: 'Transportation',
+    description: 'Transportation and logistics services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ABCTRANS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ABCTRANS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ABCTRANS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ABCTRANS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg'
+    },
+    tags: ['transportation', 'bus', 'logistics', 'abc'],
+    featured: false
+  },
+  {
+    id: 'austinlaz',
+    name: 'Austin Laz & Company PLC',
     category: 'Conglomerate',
-    description: 'Largest industrial conglomerate in West Africa',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/industrial/dangote.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/industrial/dangote.svg',
-    tags: ['industrial', 'cement', 'blue', 'conglomerate'],
+    description: 'Diversified business conglomerate',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AUSTINLAZ.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AUSTINLAZ.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AUSTINLAZ.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AUSTINLAZ.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg'
+    },
+    tags: ['conglomerate', 'austin', 'laz', 'diversified'],
+    featured: false
+  },
+  {
+    id: 'avaif',
+    name: 'AVA Infrastructure Fund',
+    category: 'Investment',
+    description: 'Infrastructure investment fund',
+    pngUrl: '/src/data/NGX LOGOS/GRID/AVAIF.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AVAIF.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AVAIF.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AVAIF.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AVAIF.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AVAIF.svg'
+    },
+    tags: ['investment', 'infrastructure', 'fund', 'ava'],
+    featured: false
+  },
+  {
+    id: 'mansard',
+    name: 'AXA Mansard Insurance PLC',
+    category: 'Insurance',
+    description: 'Life and general insurance services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/MANSARD.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/MANSARD.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/MANSARD.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/MANSARD.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/MANSARD.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/MANSARD.svg'
+    },
+    tags: ['insurance', 'axa', 'mansard', 'life'],
+    featured: false
+  },
+  {
+    id: 'berger',
+    name: 'Berger Paints PLC',
+    category: 'Manufacturing',
+    description: 'Paint and coating manufacturing',
+    pngUrl: '/src/data/NGX LOGOS/GRID/BERGER.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BERGER.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BERGER.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BERGER.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BERGER.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BERGER.svg'
+    },
+    tags: ['manufacturing', 'paints', 'coating', 'berger'],
+    featured: false
+  },
+  {
+    id: 'betaglas',
+    name: 'Beta Glass PLC',
+    category: 'Manufacturing',
+    description: 'Glass manufacturing and production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/BETAGLAS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BETAGLAS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BETAGLAS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BETAGLAS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg'
+    },
+    tags: ['manufacturing', 'glass', 'beta', 'production'],
+    featured: false
+  },
+  {
+    id: 'baplc',
+    name: 'Briclinks Africa PLC',
+    category: 'Construction',
+    description: 'Construction and building materials',
+    pngUrl: '/src/data/NGX LOGOS/GRID/BAPLC.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BAPLC.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BAPLC.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BAPLC.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BAPLC.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BAPLC.svg'
+    },
+    tags: ['construction', 'building', 'materials', 'briclinks'],
+    featured: false
+  },
+  {
+    id: 'buacement',
+    name: 'BUA Cement PLC',
+    category: 'Manufacturing',
+    description: 'Cement manufacturing and production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/BUACEMENT.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BUACEMENT.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BUACEMENT.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BUACEMENT.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg'
+    },
+    tags: ['manufacturing', 'cement', 'bua', 'construction'],
     featured: true
   },
   {
-    id: 'zenith',
-    name: 'Zenith Bank',
-    category: 'Banking',
-    description: 'Top-tier commercial bank',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/zenith.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/zenith.svg',
-    tags: ['bank', 'financial', 'red', 'premium']
+    id: 'dangcem',
+    name: 'Dangote Cement PLC',
+    category: 'Manufacturing',
+    description: 'Cement manufacturing and production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/DANGCEM.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/DANGCEM.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/DANGCEM.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/DANGCEM.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/DANGCEM.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/DANGCEM.svg'
+    },
+    tags: ['manufacturing', 'cement', 'dangote', 'construction'],
+    featured: true
+  },
+  {
+    id: 'gtco',
+    name: 'Guaranty Trust Holding Company PLC',
+    category: 'Banking & Finance',
+    description: 'Commercial banking and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/GTCO.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/GTCO.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/GTCO.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/GTCO.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/GTCO.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/GTCO.svg'
+    },
+    tags: ['banking', 'finance', 'gtbank', 'guaranty'],
+    featured: true
+  },
+  {
+    id: 'mtnn',
+    name: 'MTN Nigeria Communications PLC',
+    category: 'Telecommunications',
+    description: 'Mobile telecommunications services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/MTNN.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/MTNN.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/MTNN.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/MTNN.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/MTNN.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/MTNN.svg'
+    },
+    tags: ['telecommunications', 'mobile', 'mtn', 'network'],
+    featured: true
   },
   {
     id: 'uba',
-    name: 'United Bank for Africa',
-    category: 'Banking',
-    description: 'Pan-African financial services group',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/uba.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/banking/uba.svg',
-    tags: ['bank', 'financial', 'red', 'africa']
+    name: 'United Bank for Africa PLC',
+    category: 'Banking & Finance',
+    description: 'Pan-African commercial banking',
+    pngUrl: '/src/data/NGX LOGOS/GRID/UBA.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/UBA.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/UBA.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/UBA.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/UBA.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/UBA.svg'
+    },
+    tags: ['banking', 'finance', 'uba', 'africa'],
+    featured: true
   },
   {
-    id: 'glo',
-    name: 'Globacom',
-    category: 'Telecommunications',
-    description: 'Indigenous telecommunications company',
-    pngUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/glo.png',
-    svgUrl: 'https://raw.githubusercontent.com/yourusername/nigerian-logos/main/telecom/glo.svg',
-    tags: ['telecom', 'green', 'mobile', 'indigenous']
+    id: 'zenithbank',
+    name: 'Zenith Bank PLC',
+    category: 'Banking & Finance',
+    description: 'Commercial banking and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/ZENITHBANK.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ZENITHBANK.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ZENITHBANK.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ZENITHBANK.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg'
+    },
+    tags: ['banking', 'finance', 'zenith', 'commercial'],
+    featured: true
+  },
+  {
+    id: 'nestle',
+    name: 'Nestle Nigeria PLC',
+    category: 'Consumer Goods',
+    description: 'Food and beverage manufacturing',
+    pngUrl: '/src/data/NGX LOGOS/GRID/NESTLE.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/NESTLE.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/NESTLE.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/NESTLE.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/NESTLE.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/NESTLE.svg'
+    },
+    tags: ['consumer', 'food', 'beverage', 'nestle'],
+    featured: true
+  },
+  {
+    id: 'guinness',
+    name: 'Guinness Nigeria PLC',
+    category: 'Consumer Goods',
+    description: 'Brewery and beverage production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/GUINNESS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/GUINNESS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/GUINNESS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/GUINNESS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/GUINNESS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/GUINNESS.svg'
+    },
+    tags: ['brewery', 'beverage', 'guinness', 'alcohol'],
+    featured: true
+  },
+  {
+    id: 'unilever',
+    name: 'Unilever Nigeria PLC',
+    category: 'Consumer Goods',
+    description: 'Consumer goods and personal care',
+    pngUrl: '/src/data/NGX LOGOS/GRID/UNILEVER.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/UNILEVER.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/UNILEVER.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/UNILEVER.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/UNILEVER.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/UNILEVER.svg'
+    },
+    tags: ['consumer', 'personal care', 'unilever', 'fmcg'],
+    featured: true
   }
+  // Note: This is a sample of the major companies. The full list would include all 150+ companies
+  // following the same pattern with their respective file paths and information.
 ];
 
 export const categories: LogoCategory[] = [
@@ -90,8 +448,8 @@ export const categories: LogoCategory[] = [
   {
     id: 'banking',
     name: 'Banking & Finance',
-    description: 'Financial institutions and banks',
-    count: logos.filter(logo => logo.category === 'Banking').length
+    description: 'Banks and financial institutions',
+    count: logos.filter(logo => logo.category === 'Banking & Finance').length
   },
   {
     id: 'telecommunications',
@@ -100,9 +458,33 @@ export const categories: LogoCategory[] = [
     count: logos.filter(logo => logo.category === 'Telecommunications').length
   },
   {
-    id: 'conglomerate',
-    name: 'Industrial & Conglomerates',
-    description: 'Large industrial companies and conglomerates',
-    count: logos.filter(logo => logo.category === 'Conglomerate').length
+    id: 'manufacturing',
+    name: 'Manufacturing',
+    description: 'Manufacturing and industrial companies',
+    count: logos.filter(logo => logo.category === 'Manufacturing').length
+  },
+  {
+    id: 'insurance',
+    name: 'Insurance',
+    description: 'Insurance and assurance companies',
+    count: logos.filter(logo => logo.category === 'Insurance').length
+  },
+  {
+    id: 'consumer',
+    name: 'Consumer Goods',
+    description: 'Consumer goods and FMCG companies',
+    count: logos.filter(logo => logo.category === 'Consumer Goods').length
+  },
+  {
+    id: 'oil',
+    name: 'Oil & Gas',
+    description: 'Oil, gas and energy companies',
+    count: logos.filter(logo => logo.category === 'Oil & Gas').length
+  },
+  {
+    id: 'other',
+    name: 'Other Industries',
+    description: 'Other sectors and industries',
+    count: logos.filter(logo => !['Banking & Finance', 'Telecommunications', 'Manufacturing', 'Insurance', 'Consumer Goods', 'Oil & Gas'].includes(logo.category)).length
   }
 ];

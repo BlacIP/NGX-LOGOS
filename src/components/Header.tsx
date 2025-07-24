@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Nigerian Logos</h1>
-                <p className="text-xs text-gray-500">Open Source Collection</p>
+                <p className="text-xs text-gray-500">NGX Listed Companies</p>
               </div>
             </div>
           </div>
@@ -22,16 +22,16 @@ export const Header: React.FC = () => {
             <div className="hidden sm:flex items-center space-x-6 text-sm text-gray-600">
               <div className="flex items-center space-x-1">
                 <Download className="w-4 h-4" />
-                <span>150+ Logos</span>
+                <span>NGX Listed Companies</span>
               </div>
               <div className="flex items-center space-x-1">
                 <Star className="w-4 h-4" />
-                <span>PNG & SVG</span>
+                <span>Multiple Formats</span>
               </div>
             </div>
             
             <a
-              href="https://github.com/yourusername/nigerian-logos"
+              href="https://github.com/yourusername/ngx-logos"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200"
