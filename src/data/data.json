@@ -1,0 +1,213 @@
+{
+  "companies": [
+    {
+      "name": "ABBEY MORTGAGE BANK PLC",
+      "abbreviation": "ABBEYBDS",
+      "png_files": {
+        "200": "ABBEYBDS_200.png",
+        "500": "ABBEYBDS_500.png",
+        "1000": "ABBEYBDS_1000.png",
+        "preview": "ABBEYBDS_preview.png"
+      },
+      "svg_file": "ABBEYBDS.svg"
+    },
+    {
+      "name": "ACADEMY PRESS PLC",
+      "abbreviation": "ACADEMY",
+      "png_files": {
+        "200": "ACADEMY_200.png",
+        "500": "ACADEMY_500.png",
+        "1000": "ACADEMY_1000.png",
+        "preview": "ACADEMY_preview.png"
+      },
+      "svg_file": "ACADEMY.svg"
+    },
+    {
+      "name": "ACCESS HOLDINGS PLC",
+      "abbreviation": "ACCESSCORP",
+      "png_files": {
+        "200": "ACCESSCORP_200.png",
+        "500": "ACCESSCORP_500.png",
+        "1000": "ACCESSCORP_1000.png",
+        "preview": "ACCESSCORP_preview.png"
+      },
+      "svg_file": "ACCESSCORP.svg"
+    },
+    {
+      "name": "AFRICA PRUDENTIAL PLC",
+      "abbreviation": "AFRIPRUD",
+      "png_files": {
+        "200": "AFRIPRUD_200.png",
+        "500": "AFRIPRUD_500.png",
+        "1000": "AFRIPRUD_1000.png",
+        "preview": "AFRIPRUD_preview.png"
+      },
+      "svg_file": "AFRIPRUD.svg"
+    },
+    {
+      "name": "AFRICAN ALLIANCE INSURANCE PLC",
+      "abbreviation": "AFRINSURE",
+      "png_files": {
+        "200": "AFRINSURE_200.png",
+        "500": "AFRINSURE_500.png",
+        "1000": "AFRINSURE_1000.png",
+        "preview": "AFRINSURE_preview.png"
+      },
+      "svg_file": "AFRINSURE.svg"
+    },
+    {
+      "name": "AFROMEDIA PLC",
+      "abbreviation": "AFROMEDIA",
+      "png_files": {
+        "200": "AFROMEDIA_200.png",
+        "500": "AFROMEDIA_500.png",
+        "1000": "AFROMEDIA_1000.png",
+        "preview": "AFROMEDIA_preview.png"
+      },
+      "svg_file": "AFROMEDIA.svg"
+    },
+    {
+      "name": "AIICO INSURANCE PLC",
+      "abbreviation": "AIICO",
+      "png_files": {
+        "200": "AIICO_200.png",
+        "500": "AIICO_500.png",
+        "1000": "AIICO_1000.png",
+        "preview": "AIICO_preview.png"
+      },
+      "svg_file": "AIICO.svg"
+    },
+    {
+      "name": "AIRTEL AFRICA PLC",
+      "abbreviation": "AIRTELAFRI",
+      "png_files": {
+        "200": "AIRTELAFRI_200.png",
+        "500": "AIRTELAFRI_500.png",
+        "1000": "AIRTELAFRI_1000.png",
+        "preview": "AIRTELAFRI_preview.png"
+      },
+      "svg_file": "AIRTELAFRI.svg"
+    },
+    {
+      "name": "ALUMINIUM EXTRUSION INDUSTRIES PLC",
+      "abbreviation": "ALEX",
+      "png_files": {
+        "200": "ALEX_200.png",
+        "500": "ALEX_500.png",
+        "1000": "ALEX_1000.png",
+        "preview": "ALEX_preview.png"
+      },
+      "svg_file": "ALEX.svg"
+    },
+    {
+      "name": "ARADEL HOLDINGS PLC",
+      "abbreviation": "ARADEL",
+      "png_files": {
+        "200": "ARADEL_200.png",
+        "500": "ARADEL_500.png",
+        "1000": "ARADEL_1000.png",
+        "preview": "ARADEL_preview.png"
+      },
+      "svg_file": "ARADEL.svg"
+    },
+    {
+      "name": "ASO SAVINGS AND LOANS PLC",
+      "abbreviation": "ASOSAVINGS",
+      "png_files": {
+        "200": "ASOSAVINGS_200.png",
+        "500": "ASOSAVINGS_500.png",
+        "1000": "ASOSAVINGS_1000.png",
+        "preview": "ASOSAVINGS_preview.png"
+      },
+      "svg_file": "ASOSAVINGS.svg"
+    },
+    {
+      "name": "ASSOCIATED BUS COMPANY PLC",
+      "abbreviation": "ABCTRANS",
+      "png_files": {
+        "200": "ABCTRANS_200.png",
+        "500": "ABCTRANS_500.png",
+        "1000": "ABCTRANS_1000.png",
+        "preview": "ABCTRANS_preview.png"
+      },
+      "svg_file": "ABCTRANS.svg"
+    },
+    {
+      "name": "AUSTIN LAZ & COMPANY PLC",
+      "abbreviation": "AUSTINLAZ",
+      "png_files": {
+        "200": "AUSTINLAZ_200.png",
+        "500": "AUSTINLAZ_500.png",
+        "1000": "AUSTINLAZ_1000.png",
+        "preview": "AUSTINLAZ_preview.png"
+      },
+      "svg_file": "AUSTINLAZ.svg"
+    },
+    {
+      "name": "AVA INFRASTRUCTURE FUND",
+      "abbreviation": "AVAIF",
+      "png_files": {
+        "200": "AVAIF_200.png",
+        "500": "AVAIF_500.png",
+        "1000": "AVAIF_1000.png",
+        "preview": "AVAIF_preview.png"
+      },
+      "svg_file": "AVAIF.svg"
+    },
+    {
+      "name": "AXAMANSARD INSURANCE PLC",
+      "abbreviation": "MANSARD",
+      "png_files": {
+        "200": "MANSARD_200.png",
+        "500": "MANSARD_500.png",
+        "1000": "MANSARD_1000.png",
+        "preview": "MANSARD_preview.png"
+      },
+      "svg_file": "MANSARD.svg"
+    },
+    {
+      "name": "BERGER PAINTS PLC",
+      "abbreviation": "BERGER",
+      "png_files": {
+        "200": "BERGER_200.png",
+        "500": "BERGER_500.png",
+        "1000": "BERGER_1000.png",
+        "preview": "BERGER_preview.png"
+      },
+      "svg_file": "BERGER.svg"
+    },
+    {
+      "name": "BETA GLASS PLC",
+      "abbreviation": "BETAGLAS",
+      "png_files": {
+        "200": "BETAGLAS_200.png",
+        "500": "BETAGLAS_500.png",
+        "1000": "BETAGLAS_1000.png",
+        "preview": "BETAGLAS_preview.png"
+      },
+      "svg_file": "BETAGLAS.svg"
+    },
+    {
+      "name": "BRICLINKS AFRICA PLC",
+      "abbreviation": "BAPLC",
+      "png_files": {
+        "200": "BAPLC_200.png",
+        "500": "BAPLC_500.png",
+        "1000": "BAPLC_1000.png",
+        "preview": "BAPLC_preview.png"
+      },
+      "svg_file": "BAPLC.svg"
+    },
+    {
+      "name": "BUA CEMENT PLC",
+      "abbreviation": "BUACEMENT",
+      "png_files": {
+        "200": "BUACEMENT_200.png",
+        "500": "BUACEMENT_500.png",
+        "1000": "BUACEMENT_1000.png",
+        "preview": "BUACEMENT_preview.png"
+      },
+      "svg_file": "BUACEMENT.svg"
+    }
+  ]
+}
