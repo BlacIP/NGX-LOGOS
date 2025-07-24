@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
             </div>
             
             <a
-              href="https://github.com/yourusername/ngx-logos"
+              href="https://github.com/BlacIP/NGX-LOGOS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors duration-200"
