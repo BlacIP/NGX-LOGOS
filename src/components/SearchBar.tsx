@@ -33,7 +33,12 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           
           <div className="relative">
             <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+            <label htmlFor="category-select" className="sr-only">
+              Filter by category
+            </label>
             <select
+              id="category-select"
+              aria-label="Filter by category"
               value={selectedCategory}
               onChange={(e) => onCategoryChange(e.target.value)}
               className="pl-10 pr-8 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent bg-white min-w-[200px]"
