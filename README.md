@@ -9,8 +9,6 @@ A comprehensive collection of high-quality, reconstructed logos for companies li
 - Easy-to-use search and filter functionality
 - Direct download links
 - Copy-paste embed codes
-- Responsive design
-- Dark/Light mode support
 
 ## 🛠 Tech Stack
 
