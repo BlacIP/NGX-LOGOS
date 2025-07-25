@@ -52,7 +52,7 @@ npm run dev
 
 ### Design
 - **Designer**: Oyeleye Ogunsanya
-- **X**: [@leyeconnect](https://twitter.com/leyeconnect)
+- **X ( fka: twitter) **: [@leyeconnect](https://twitter.com/leyeconnect)
 
 ### Development
 - **Developer**: Boluwatife Omotoyinbo
