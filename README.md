@@ -52,11 +52,11 @@ npm run dev
 
 ### Design
 - **Designer**: Oyeleye Ogunsanya
-- **X ( fka: twitter) **: [@leyeconnect](https://twitter.com/leyeconnect)
+- **X (fka:twitter)**: [@leyeconnect](https://twitter.com/leyeconnect)
 
 ### Development
 - **Developer**: Boluwatife Omotoyinbo
-- **X**: [@OABoluwatife](https://twitter.com/OABoluwatife)
+- **X (fka:twitter)**: [@OABoluwatife](https://twitter.com/OABoluwatife)
 
 ### Tools & Resources
 - VS Code
