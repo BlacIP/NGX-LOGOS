@@ -306,6 +306,70 @@ export const logos: Logo[] = [
     tags: ['manufacturing', 'cement', 'bua', 'construction'],
     featured: true
   },
+   {
+    id: 'buafoods',
+    name: 'BUA Foods PLC',
+    category: 'Manufacturing',
+    description: 'Food and beverage manufacturing',
+    pngUrl: '/src/data/NGX LOGOS/GRID/BUAFOODS.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BUAFOODS.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BUAFOODS.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BUAFOODS.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BUAFOODS.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BUAFOODS.svg'
+    },
+    tags: ['manufacturing', 'food', 'beverage', 'bua', 'food'],
+    featured: true
+  },
+  {
+    id: 'ci',
+    name: 'C & I Leasing PLC',
+    category: 'Transportation & Logistics',
+    description: 'Leasing and logistics services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CILEASING.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CILEASING.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CILEASING.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CILEASING`.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CILEASING.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CILEASING.svg'
+    },
+    tags: ['transportation', 'logistics', 'leasing', 'c&i', 'leasing'],
+    featured: false
+  },
+  {
+    id: 'cadbury',
+    name: 'Cadbury Nigeria PLC',
+    category: 'Food & Beverage',
+    description: 'Food and beverage manufacturing',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CADBURY.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CADBURY.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CADBURY.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CADBURY`.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CADBURY.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CADBURY.svg'
+    },
+    tags: ['food', 'beverage', 'cadbury', 'manufacturing'],
+    featured: false
+  },
+  {
+    id: 'capplc',
+    name: 'CAP PLC',
+    category: 'Paints & Coatings',
+    description: 'Paints and coatings manufacturing',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CAP.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CAP.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CAP.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CAP`.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CAP.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CAP.svg'
+    },
+    tags: ['paints', 'coatings', 'cap', 'manufacturing'],
+    featured: false
+  },
   {
     id: 'caverton',
     name: 'Caverton Offshore Support Group PLC',
@@ -320,6 +384,22 @@ export const logos: Logo[] = [
       svg: '/src/data/NGX LOGOS/NO GRID/SVG/CAVERTON.svg'
     },
     tags: ['oil', 'gas', 'offshore', 'aviation'],
+    featured: false
+  },
+   {
+    id: 'champion',
+    name: 'Champion Breweries PLC',
+    category: 'Consumer Goods',
+    description: 'Brewery and beverage production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CHAMPION.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CHAMPION.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CHAMPION.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CHAMPION.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CHAMPION.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CHAMPION.svg'
+    },
+    tags: ['brewery', 'beverage', 'champion', 'consumer'],
     featured: false
   },
   {
@@ -352,6 +432,38 @@ export const logos: Logo[] = [
       svg: '/src/data/NGX LOGOS/NO GRID/SVG/NIDF.svg'
     },
     tags: ['investment', 'infrastructure', 'debt', 'fund'],
+    featured: false
+  },
+   {
+    id: 'chellaram',
+    name: 'Chellarams PLC',
+    category: 'Conglomerate',
+    description: 'Diversified business holdings',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CHELLARAM.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CHELLARAM.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CHELLARAM.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CHELLARAM.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CHELLARAM.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CHELLARAM.svg'
+    },
+    tags: ['conglomerate', 'diversified', 'business', 'chellarams'],
+    featured: false
+  },
+  {
+    id: 'conoil',
+    name: 'Conoil PLC',
+    category: 'oil & Gas',
+    description: 'Oil and gas exploration and production',
+    pngUrl: '/src/data/NGX LOGOS/GRID/CONOIL.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/CONOIL.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/CONOIL.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/CONOIL.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/CONOIL.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/CONOIL.svg'
+    },
+    tags: ['oil', 'gas', 'exploration', 'production', 'conoil'],
     featured: false
   },
   {
@@ -647,13 +759,13 @@ export const logos: Logo[] = [
     name: 'Fidelity Bank PLC',
     category: 'Banking & Finance',
     description: 'Commercial banking services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/FIDELITYBK.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/FIDELITYBK.svg',
+    pngUrl: '/src/data/NGX LOGOS/GRID/FIDELITY.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/FIDELITY.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/FIDELITYBK.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/FIDELITYBK.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/FIDELITYBK.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/FIDELITYBK.svg'
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/FIDELITY.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/FIDELITY.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/FIDELITY.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/FIDELITY.svg'
     },
     tags: ['banking', 'finance', 'fidelity', 'commercial'],
     featured: true
@@ -1459,6 +1571,22 @@ export const logos: Logo[] = [
     featured: false
   },
   {
+    id: 'omatek',
+    name: 'Omatek Ventures PLC',
+    category: 'Technology',
+    description: 'Software and IT services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/OMATEK.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/OMATEK.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/OMATEK.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/OMATEK.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/OMATEK.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/OMATEK.svg'
+    },
+    tags: ['technology', 'software', 'it', 'omatek'],
+    featured: false
+  },
+  {
     id: 'pz',
     name: 'PZ Cussons Nigeria PLC',
     category: 'Consumer Goods',
@@ -1799,15 +1927,15 @@ export const logos: Logo[] = [
     name: 'The Initiates PLC',
     category: 'Conglomerate',
     description: 'Diversified business investments',
-    pngUrl: '/src/data/NGX LOGOS/GRID/TIP.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/TIP.svg',
+    pngUrl: '/src/data/NGX LOGOS/GRID/INITIATES.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/INITIATES.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/TIP.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/TIP.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/TIP.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/TIP.svg'
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/INITIATES.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/INITIATES.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/INITIATES.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/INITIATES.svg'
     },
-    tags: ['conglomerate', 'investments', 'initiates', 'diversified'],
+    tags: ['conglomerate', 'holdings', 'the', 'initiates'],
     featured: false
   },
   {
@@ -1831,13 +1959,13 @@ export const logos: Logo[] = [
     name: 'Thomas Wyatt Nigeria PLC',
     category: 'Manufacturing',
     description: 'Textile and manufacturing',
-    pngUrl: '/src/data/NGX LOGOS/GRID/THOMASWY.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/THOMASWY.svg',
+    pngUrl: '/src/data/NGX LOGOS/GRID/APEX.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/APEX.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/THOMASWY.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/THOMASWY.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/THOMASWY.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/THOMASWY.svg'
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/APEX.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/APEX.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/APEX.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/APEX.svg'
     },
     tags: ['manufacturing', 'textile', 'thomas', 'wyatt'],
     featured: false
@@ -2067,6 +2195,22 @@ export const logos: Logo[] = [
     featured: false
   },
   {
+    id: 'updc',
+    name: 'UPDC Real Estate Investment Trust',
+    category: 'Real Estate',
+    description: 'Real estate development and investment',
+    pngUrl: '/src/data/NGX LOGOS/GRID/UPDC.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/UPDC.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/UPDC.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/UPDC.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/UPDC.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/UPDC.svg'
+    },
+    tags: ['real estate', 'development', 'updc', 'property'],
+    featured: false
+  },
+  {
     id: 'upl',
     name: 'UPL Limited',
     category: 'Agriculture',
@@ -2099,19 +2243,35 @@ export const logos: Logo[] = [
     featured: false
   },
   {
-    id: 'wapic',
-    name: 'Coronation Insurance PLC',
+    id: 'veritas',
+    name: 'Veritas Assurance PLC',
     category: 'Insurance',
     description: 'Life and general insurance',
-    pngUrl: '/src/data/NGX LOGOS/GRID/WAPIC.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/WAPIC.svg',
+    pngUrl: '/src/data/NGX LOGOS/GRID/VERITASKAP.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/VERITASKAP.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/WAPIC.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/WAPIC.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/WAPIC.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/WAPIC.svg'
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/VERITASKAP.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/VERITASKAP.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/VERITASKAP.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/VERITASKAP.svg'
     },
-    tags: ['insurance', 'coronation', 'life', 'general'],
+    tags: ['insurance', 'veritas', 'assurance', 'life', 'general'],
+    featured: false
+  },
+  {
+    id: 'vfd',
+    name: 'VFD Group PLC',
+    category: 'Financial Services',
+    description: 'Investment and financial services',
+    pngUrl: '/src/data/NGX LOGOS/GRID/VFD.png',
+    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/VFD.svg',
+    downloadUrls: {
+      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/VFD.png',
+      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/VFD.png',
+      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/VFD.png',
+      svg: '/src/data/NGX LOGOS/NO GRID/SVG/VFD.svg'
+    },
+    tags: ['financial', 'investment', 'vfd', 'services'],
     featured: false
   },
   {
