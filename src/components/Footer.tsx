@@ -19,31 +19,7 @@ export const Footer: React.FC = () => {
             </p>
           </div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Browse All Logos
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Download Guidelines
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Contribute
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Report Issues
-                </a>
-              </li>
-            </ul>
-          </div>
+         
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
@@ -68,7 +44,7 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Nigerian Logos. Open source project licensed under MIT.
+            © 2025 Nigerian Logos.
           </p>
           <p className="text-gray-400 text-sm mt-2 sm:mt-0">
             All logos are property of their respective owners.

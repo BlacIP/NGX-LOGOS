@@ -1,18 +1,44 @@
-import React from 'react';
-import { Download, Star, Github, Users } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Download, Star, Github, Eye } from 'lucide-react';
+
 
 interface StatsProps {
   totalLogos: number;
-  totalDownloads?: number;
 }
 
-export const Stats: React.FC<StatsProps> = ({ totalLogos, totalDownloads = 0 }) => {
+export const Stats: React.FC<StatsProps> = ({ totalLogos }) => {
+  const [visitorCount, setVisitorCount] = useState<number>(0);
+
+  useEffect(() => {
+    // Get existing count from localStorage
+    const storedCount = localStorage.getItem('visitorCount');
+    const lastVisit = localStorage.getItem('lastVisit');
+    const today = new Date().toDateString();
+
+    if (!lastVisit || lastVisit !== today) {
+      // New day or first visit
+      const newCount = storedCount ? parseInt(storedCount) + 1 : 1;
+      localStorage.setItem('visitorCount', newCount.toString());
+      localStorage.setItem('lastVisit', today);
+      setVisitorCount(newCount);
+    } else {
+      // Same day visit
+      setVisitorCount(parseInt(storedCount || '0'));
+    }
+  }, []);
+
   const stats = [
     {
       label: 'Total Logos',
       value: totalLogos,
       icon: Star,
       color: 'text-green-600'
+    },
+    {
+      label: 'Daily Visitors',
+      value: visitorCount,
+      icon: Eye,
+      color: 'text-indigo-600'
     },
     {
       label: 'Download Formats',
@@ -26,12 +52,6 @@ export const Stats: React.FC<StatsProps> = ({ totalLogos, totalDownloads = 0 }) 
       value: '100%',
       icon: Github,
       color: 'text-purple-600'
-    },
-    {
-      label: 'Free to Use',
-      value: '∞',
-      icon: Users,
-      color: 'text-orange-600'
     }
   ];
 
