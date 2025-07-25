@@ -7,13 +7,13 @@ export const logos: Logo[] = [
     name: 'Abbey Mortgage Bank PLC',
     category: 'Banking & Finance',
     description: 'Mortgage banking and financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ABBEYBDS.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ABBEYBDS.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ABBEYBDS.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ABBEYBDS.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ABBEYBDS.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ABBEYBDS.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ABBEYBDS.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ABBEYBDS.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ABBEYBDS.svg'
     },
     tags: ['banking', 'mortgage', 'finance', 'abbey'],
     featured: true
@@ -23,13 +23,13 @@ export const logos: Logo[] = [
     name: 'Academy Press PLC',
     category: 'Media & Publishing',
     description: 'Publishing and educational materials',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ACADEMY.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ACADEMY.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ACADEMY.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ACADEMY.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ACADEMY.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ACADEMY.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ACADEMY.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ACADEMY.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ACADEMY.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ACADEMY.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ACADEMY.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ACADEMY.svg'
     },
     tags: ['publishing', 'education', 'academy', 'media'],
     featured: false
@@ -39,13 +39,13 @@ export const logos: Logo[] = [
     name: 'Access Holdings PLC',
     category: 'Banking & Finance',
     description: 'Commercial banking and financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ACCESSCORP.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ACCESSCORP.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ACCESSCORP.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ACCESSCORP.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ACCESSCORP.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ACCESSCORP.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ACCESSCORP.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ACCESSCORP.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ACCESSCORP.svg'
     },
     tags: ['banking', 'finance', 'access', 'commercial'],
     featured: true
@@ -55,13 +55,13 @@ export const logos: Logo[] = [
     name: 'Africa Prudential PLC',
     category: 'Financial Services',
     description: 'Registrar and financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AFRIPRUD.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AFRIPRUD.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFRIPRUD.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFRIPRUD.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFRIPRUD.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AFRIPRUD.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AFRIPRUD.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AFRIPRUD.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AFRIPRUD.svg'
     },
     tags: ['financial', 'registrar', 'africa', 'prudential'],
     featured: false
@@ -71,13 +71,13 @@ export const logos: Logo[] = [
     name: 'African Alliance Insurance PLC',
     category: 'Insurance',
     description: 'Life and general insurance services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AFRINSURE.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AFRINSURE.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFRINSURE.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFRINSURE.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFRINSURE.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AFRINSURE.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AFRINSURE.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AFRINSURE.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AFRINSURE.svg'
     },
     tags: ['insurance', 'african', 'alliance', 'life'],
     featured: false
@@ -87,13 +87,13 @@ export const logos: Logo[] = [
     name: 'Afromedia PLC',
     category: 'Media & Publishing',
     description: 'Media and entertainment services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AFROMEDIA.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AFROMEDIA.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AFROMEDIA.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AFROMEDIA.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AFROMEDIA.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AFROMEDIA.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AFROMEDIA.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AFROMEDIA.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AFROMEDIA.svg'
     },
     tags: ['media', 'entertainment', 'afro', 'broadcasting'],
     featured: false
@@ -103,13 +103,13 @@ export const logos: Logo[] = [
     name: 'AIICO Insurance PLC',
     category: 'Insurance',
     description: 'Life and general insurance company',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AIICO.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AIICO.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AIICO.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AIICO.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AIICO.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AIICO.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AIICO.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AIICO.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AIICO.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AIICO.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AIICO.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AIICO.svg'
     },
     tags: ['insurance', 'aiico', 'life', 'general'],
     featured: false
@@ -119,13 +119,13 @@ export const logos: Logo[] = [
     name: 'Airtel Africa PLC',
     category: 'Telecommunications',
     description: 'Telecommunications and mobile services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AIRTELAFRI.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AIRTELAFRI.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AIRTELAFRI.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AIRTELAFRI.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AIRTELAFRI.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AIRTELAFRI.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AIRTELAFRI.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AIRTELAFRI.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AIRTELAFRI.svg'
     },
     tags: ['telecommunications', 'mobile', 'airtel', 'africa'],
     featured: true
@@ -135,13 +135,13 @@ export const logos: Logo[] = [
     name: 'Aluminium Extrusion Industries PLC',
     category: 'Industrial',
     description: 'Aluminium manufacturing and extrusion',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ALEX.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ALEX.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ALEX.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ALEX.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ALEX.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ALEX.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ALEX.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ALEX.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ALEX.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ALEX.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ALEX.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ALEX.svg'
     },
     tags: ['industrial', 'aluminium', 'manufacturing', 'extrusion'],
     featured: false
@@ -151,13 +151,13 @@ export const logos: Logo[] = [
     name: 'Aradel Holdings PLC',
     category: 'Oil & Gas',
     description: 'Oil and gas exploration and production',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ARADEL.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ARADEL.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ARADEL.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ARADEL.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ARADEL.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ARADEL.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ARADEL.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ARADEL.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ARADEL.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ARADEL.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ARADEL.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ARADEL.svg'
     },
     tags: ['oil', 'gas', 'exploration', 'energy'],
     featured: false
@@ -167,13 +167,13 @@ export const logos: Logo[] = [
     name: 'ASO Savings and Loans PLC',
     category: 'Banking & Finance',
     description: 'Savings and loans financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ASOSAVINGS.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ASOSAVINGS.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ASOSAVINGS.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ASOSAVINGS.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ASOSAVINGS.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ASOSAVINGS.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ASOSAVINGS.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ASOSAVINGS.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ASOSAVINGS.svg'
     },
     tags: ['banking', 'savings', 'loans', 'aso'],
     featured: false
@@ -183,13 +183,13 @@ export const logos: Logo[] = [
     name: 'Associated Bus Company PLC',
     category: 'Transportation',
     description: 'Transportation and logistics services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ABCTRANS.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ABCTRANS.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ABCTRANS.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ABCTRANS.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ABCTRANS.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ABCTRANS.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ABCTRANS.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ABCTRANS.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ABCTRANS.svg'
     },
     tags: ['transportation', 'bus', 'logistics', 'abc'],
     featured: false
@@ -199,13 +199,13 @@ export const logos: Logo[] = [
     name: 'Austin Laz & Company PLC',
     category: 'Conglomerate',
     description: 'Diversified business conglomerate',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AUSTINLAZ.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AUSTINLAZ.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AUSTINLAZ.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AUSTINLAZ.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AUSTINLAZ.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AUSTINLAZ.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AUSTINLAZ.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AUSTINLAZ.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AUSTINLAZ.svg'
     },
     tags: ['conglomerate', 'austin', 'laz', 'diversified'],
     featured: false
@@ -215,13 +215,13 @@ export const logos: Logo[] = [
     name: 'AVA Infrastructure Fund',
     category: 'Investment',
     description: 'Infrastructure investment fund',
-    pngUrl: '/src/data/NGX LOGOS/GRID/AVAIF.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/AVAIF.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/AVAIF.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/AVAIF.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/AVAIF.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/AVAIF.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/AVAIF.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/AVAIF.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/AVAIF.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/AVAIF.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/AVAIF.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/AVAIF.svg'
     },
     tags: ['investment', 'infrastructure', 'fund', 'ava'],
     featured: false
@@ -231,13 +231,13 @@ export const logos: Logo[] = [
     name: 'AXA Mansard Insurance PLC',
     category: 'Insurance',
     description: 'Life and general insurance services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/MANSARD.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/MANSARD.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/MANSARD.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/MANSARD.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/MANSARD.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/MANSARD.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/MANSARD.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/MANSARD.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/MANSARD.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/MANSARD.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/MANSARD.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/MANSARD.svg'
     },
     tags: ['insurance', 'axa', 'mansard', 'life'],
     featured: false
@@ -247,13 +247,13 @@ export const logos: Logo[] = [
     name: 'Berger Paints PLC',
     category: 'Manufacturing',
     description: 'Paint and coating manufacturing',
-    pngUrl: '/src/data/NGX LOGOS/GRID/BERGER.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BERGER.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/BERGER.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/BERGER.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BERGER.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BERGER.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BERGER.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BERGER.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/BERGER.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/BERGER.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/BERGER.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/BERGER.svg'
     },
     tags: ['manufacturing', 'paints', 'coating', 'berger'],
     featured: false
@@ -263,13 +263,13 @@ export const logos: Logo[] = [
     name: 'Beta Glass PLC',
     category: 'Manufacturing',
     description: 'Glass manufacturing and production',
-    pngUrl: '/src/data/NGX LOGOS/GRID/BETAGLAS.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/BETAGLAS.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BETAGLAS.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BETAGLAS.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BETAGLAS.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/BETAGLAS.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/BETAGLAS.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/BETAGLAS.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/BETAGLAS.svg'
     },
     tags: ['manufacturing', 'glass', 'beta', 'production'],
     featured: false
@@ -279,13 +279,13 @@ export const logos: Logo[] = [
     name: 'Briclinks Africa PLC',
     category: 'Construction',
     description: 'Construction and building materials',
-    pngUrl: '/src/data/NGX LOGOS/GRID/BAPLC.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BAPLC.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/BAPLC.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/BAPLC.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BAPLC.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BAPLC.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BAPLC.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BAPLC.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/BAPLC.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/BAPLC.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/BAPLC.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/BAPLC.svg'
     },
     tags: ['construction', 'building', 'materials', 'briclinks'],
     featured: false
@@ -295,13 +295,13 @@ export const logos: Logo[] = [
     name: 'BUA Cement PLC',
     category: 'Manufacturing',
     description: 'Cement manufacturing and production',
-    pngUrl: '/src/data/NGX LOGOS/GRID/BUACEMENT.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/BUACEMENT.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/BUACEMENT.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/BUACEMENT.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/BUACEMENT.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/BUACEMENT.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/BUACEMENT.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/BUACEMENT.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/BUACEMENT.svg'
     },
     tags: ['manufacturing', 'cement', 'bua', 'construction'],
     featured: true
@@ -583,13 +583,13 @@ export const logos: Logo[] = [
     name: 'Dangote Cement PLC',
     category: 'Manufacturing',
     description: 'Cement manufacturing and production',
-    pngUrl: '/src/data/NGX LOGOS/GRID/DANGCEM.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/DANGCEM.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/DANGCEM.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/DANGCEM.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/DANGCEM.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/DANGCEM.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/DANGCEM.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/DANGCEM.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/DANGCEM.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/DANGCEM.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/DANGCEM.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/DANGCEM.svg'
     },
     tags: ['manufacturing', 'cement', 'dangote', 'construction'],
     featured: true
@@ -887,13 +887,13 @@ export const logos: Logo[] = [
     name: 'Guaranty Trust Holding Company PLC',
     category: 'Banking & Finance',
     description: 'Commercial banking and financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/GTCO.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/GTCO.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/GTCO.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/GTCO.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/GTCO.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/GTCO.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/GTCO.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/GTCO.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/GTCO.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/GTCO.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/GTCO.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/GTCO.svg'
     },
     tags: ['banking', 'finance', 'gtbank', 'guaranty'],
     featured: true
@@ -919,13 +919,13 @@ export const logos: Logo[] = [
     name: 'Guinness Nigeria PLC',
     category: 'Consumer Goods',
     description: 'Brewery and beverage production',
-    pngUrl: '/src/data/NGX LOGOS/GRID/GUINNESS.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/GUINNESS.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/GUINNESS.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/GUINNESS.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/GUINNESS.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/GUINNESS.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/GUINNESS.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/GUINNESS.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/GUINNESS.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/GUINNESS.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/GUINNESS.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/GUINNESS.svg'
     },
     tags: ['brewery', 'beverage', 'guinness', 'alcohol'],
     featured: true
@@ -1303,13 +1303,13 @@ export const logos: Logo[] = [
     name: 'MTN Nigeria Communications PLC',
     category: 'Telecommunications',
     description: 'Mobile telecommunications services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/MTNN.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/MTNN.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/MTNN.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/MTNN.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/MTNN.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/MTNN.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/MTNN.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/MTNN.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/MTNN.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/MTNN.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/MTNN.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/MTNN.svg'
     },
     tags: ['telecommunications', 'mobile', 'mtn', 'network'],
     featured: true
@@ -1447,13 +1447,13 @@ export const logos: Logo[] = [
     name: 'Nestle Nigeria PLC',
     category: 'Consumer Goods',
     description: 'Food and beverage manufacturing',
-    pngUrl: '/src/data/NGX LOGOS/GRID/NESTLE.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/NESTLE.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/NESTLE.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/NESTLE.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/NESTLE.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/NESTLE.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/NESTLE.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/NESTLE.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/NESTLE.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/NESTLE.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/NESTLE.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/NESTLE.svg'
     },
     tags: ['consumer', 'food', 'beverage', 'nestle'],
     featured: true
@@ -2087,13 +2087,13 @@ export const logos: Logo[] = [
     name: 'Unilever Nigeria PLC',
     category: 'Consumer Goods',
     description: 'Consumer goods and personal care',
-    pngUrl: '/src/data/NGX LOGOS/GRID/UNILEVER.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/UNILEVER.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/UNILEVER.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/UNILEVER.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/UNILEVER.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/UNILEVER.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/UNILEVER.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/UNILEVER.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/UNILEVER.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/UNILEVER.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/UNILEVER.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/UNILEVER.svg'
     },
     tags: ['consumer', 'personal care', 'unilever', 'fmcg'],
     featured: true
@@ -2119,13 +2119,13 @@ export const logos: Logo[] = [
     name: 'United Bank for Africa PLC',
     category: 'Banking & Finance',
     description: 'Pan-African commercial banking',
-    pngUrl: '/src/data/NGX LOGOS/GRID/UBA.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/UBA.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/UBA.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/UBA.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/UBA.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/UBA.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/UBA.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/UBA.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/UBA.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/UBA.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/UBA.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/UBA.svg'
     },
     tags: ['banking', 'finance', 'uba', 'africa'],
     featured: true
@@ -2295,13 +2295,13 @@ export const logos: Logo[] = [
     name: 'Zenith Bank PLC',
     category: 'Banking & Finance',
     description: 'Commercial banking and financial services',
-    pngUrl: '/src/data/NGX LOGOS/GRID/ZENITHBANK.png',
-    svgUrl: '/src/data/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg',
+    pngUrl: '/logos/NGX LOGOS/GRID/ZENITHBANK.png',
+    svgUrl: '/logos/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg',
     downloadUrls: {
-      png250: '/src/data/NGX LOGOS/NO GRID/PNG/250/ZENITHBANK.png',
-      png500: '/src/data/NGX LOGOS/NO GRID/PNG/500/ZENITHBANK.png',
-      png1000: '/src/data/NGX LOGOS/NO GRID/PNG/1000/ZENITHBANK.png',
-      svg: '/src/data/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg'
+      png250: '/logos/NGX LOGOS/NO GRID/PNG/250/ZENITHBANK.png',
+      png500: '/logos/NGX LOGOS/NO GRID/PNG/500/ZENITHBANK.png',
+      png1000: '/logos/NGX LOGOS/NO GRID/PNG/1000/ZENITHBANK.png',
+      svg: '/logos/NGX LOGOS/NO GRID/SVG/ZENITHBANK.svg'
     },
     tags: ['banking', 'finance', 'zenith', 'commercial'],
     featured: true

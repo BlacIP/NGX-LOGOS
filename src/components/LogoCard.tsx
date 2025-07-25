@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Download, ExternalLink, Tag } from 'lucide-react';
+import { Download, ExternalLink, Tag, Share2, Copy, Check } from 'lucide-react';
 import { Logo } from '../types';
 
 interface LogoCardProps {
@@ -9,6 +9,8 @@ interface LogoCardProps {
 export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
   const [imageError, setImageError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [showShareMenu, setShowShareMenu] = useState(false);
+  const [copiedItem, setCopiedItem] = useState<string | null>(null);
 
   const handleDownload = async (url: string, filename: string) => {
     try {
@@ -24,6 +26,38 @@ export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
       console.error('Download failed:', error);
       window.open(url, '_blank');
     }
+  };
+
+  const handleCopyToClipboard = async (text: string, type: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedItem(type);
+      setTimeout(() => setCopiedItem(null), 2000);
+    } catch (error) {
+      console.error('Failed to copy to clipboard:', error);
+    }
+  };
+
+  const getLogoUrl = (format: 'png' | 'svg', size?: string) => {
+    const baseUrl = window.location.origin;
+    if (format === 'svg') {
+      return `${baseUrl}${logo.downloadUrls.svg}`;
+    }
+    switch (size) {
+      case '250':
+        return `${baseUrl}${logo.downloadUrls.png250}`;
+      case '500':
+        return `${baseUrl}${logo.downloadUrls.png500}`;
+      case '1000':
+        return `${baseUrl}${logo.downloadUrls.png1000}`;
+      default:
+        return `${baseUrl}${logo.downloadUrls.png500}`;
+    }
+  };
+
+  const generateEmbedCode = (format: 'png' | 'svg', size?: string) => {
+    const url = getLogoUrl(format, size);
+    return `<img src="${url}" alt="${logo.name}" width="${size || '500'}" height="${size || '500'}" />`;
   };
 
   return (
@@ -98,11 +132,102 @@ export const LogoCard: React.FC<LogoCardProps> = ({ logo }) => {
             {logo.category}
           </span>
           
-          <div className="flex items-center space-x-1">
-            <Tag className="w-3 h-3 text-gray-400" />
-            <span className="text-xs text-gray-500">
-              {logo.tags.length} tags
-            </span>
+          <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1">
+              <Tag className="w-3 h-3 text-gray-400" />
+              <span className="text-xs text-gray-500">
+                {logo.tags.length} tags
+              </span>
+            </div>
+            
+            <div className="relative">
+              <button
+                onClick={() => setShowShareMenu(!showShareMenu)}
+                className="p-1 text-gray-400 hover:text-gray-600 transition-colors duration-200"
+                title="Share logo"
+              >
+                <Share2 className="w-3 h-3" />
+              </button>
+              
+              {showShareMenu && (
+                <div className="absolute right-0 top-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-20 w-64">
+                  <div className="p-3">
+                    <h4 className="text-xs font-semibold text-gray-900 mb-2">Share Logo</h4>
+                    
+                    <div className="space-y-2">
+                      <div>
+                        <label className="text-xs text-gray-600 block mb-1">Direct Link (PNG 500px)</label>
+                        <div className="flex items-center space-x-1">
+                          <input
+                            type="text"
+                            value={getLogoUrl('png', '500')}
+                            readOnly
+                            className="flex-1 text-xs px-2 py-1 border border-gray-200 rounded bg-gray-50"
+                          />
+                          <button
+                            onClick={() => handleCopyToClipboard(getLogoUrl('png', '500'), 'png-link')}
+                            className="p-1 text-gray-400 hover:text-gray-600"
+                            title="Copy link"
+                          >
+                            {copiedItem === 'png-link' ? (
+                              <Check className="w-3 h-3 text-green-600" />
+                            ) : (
+                              <Copy className="w-3 h-3" />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <label className="text-xs text-gray-600 block mb-1">SVG Link</label>
+                        <div className="flex items-center space-x-1">
+                          <input
+                            type="text"
+                            value={getLogoUrl('svg')}
+                            readOnly
+                            className="flex-1 text-xs px-2 py-1 border border-gray-200 rounded bg-gray-50"
+                          />
+                          <button
+                            onClick={() => handleCopyToClipboard(getLogoUrl('svg'), 'svg-link')}
+                            className="p-1 text-gray-400 hover:text-gray-600"
+                            title="Copy link"
+                          >
+                            {copiedItem === 'svg-link' ? (
+                              <Check className="w-3 h-3 text-green-600" />
+                            ) : (
+                              <Copy className="w-3 h-3" />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <label className="text-xs text-gray-600 block mb-1">HTML Embed Code</label>
+                        <div className="flex items-center space-x-1">
+                          <textarea
+                            value={generateEmbedCode('png', '500')}
+                            readOnly
+                            rows={2}
+                            className="flex-1 text-xs px-2 py-1 border border-gray-200 rounded bg-gray-50 resize-none"
+                          />
+                          <button
+                            onClick={() => handleCopyToClipboard(generateEmbedCode('png', '500'), 'embed-code')}
+                            className="p-1 text-gray-400 hover:text-gray-600"
+                            title="Copy embed code"
+                          >
+                            {copiedItem === 'embed-code' ? (
+                              <Check className="w-3 h-3 text-green-600" />
+                            ) : (
+                              <Copy className="w-3 h-3" />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
         
